@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <h1>Registration form</h1>
+        <h1 class="form-title">Registration Form</h1>
         <form class="form-container">
             <div class="form-data-container">
                 <label for="fname">Full Name</label>
@@ -42,11 +42,11 @@
                     <option value="refuse">Refuse to state</option>
                 </select>
             </div>
-            <div class="form-data-container">
-                <input type="checkbox" id="terms" name="terms" value="terms" required> 
-                <label for="terms"> Accept terms and conditions</label>
+            <div class="terms">
+                <input type="checkbox" id="termscheck" name="terms" value="terms" required> 
+                <label for="terms" class="termsline"> Accept terms and conditions</label>
             </div>
-            <input type="submit" method="post" value="Submit">
+            <input type="submit" method="post" value="Submit" class="button">
         </form>
     </div>
 </body>
